@@ -1,8 +1,9 @@
 # DeepLearning.AI TensorFlow Developer
 
 Completed this course certificate in 2 weeks, great to get hand on tensorflow and applied deep learning.
-
 Below is the list of assignments and ungraded labs course-wise.
+
+
 -----
 
 ## C1 - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
