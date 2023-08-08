@@ -3,15 +3,6 @@
 Completed this course certificate in 2 weeks, great to get hand on tensorflow and applied deep learning.
 
 Below is the list of assignments and ungraded labs course-wise.
-
-
-### Want to contribute?
-
-At the time we are not accepting Pull Requests but if you have any suggestion or spot any typo please raise an issue. 
-
-If you find a bug that is blocking in any way consider joining our [community](https://community.deeplearning.ai/) where our mentors and team will help you. You can also find more information on our community in this Reading Item within
-[Coursera](https://www.coursera.org/learn/introduction-tensorflow/ungradedLti/3L0GK/important-have-questions-issues-or-ideas-join-our-community).
-
 -----
 
 ## C1 - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
