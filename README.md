@@ -1,6 +1,6 @@
 # DeepLearning.AI TensorFlow Developer
 
-Welcome to the public repo for this course.
+Completed this course certificate in 2 weeks, great to get hand on tensorflow and applied deep learning.
 
 Below is the list of assignments and ungraded labs course-wise.
 
