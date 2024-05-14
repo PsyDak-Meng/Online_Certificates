@@ -19,6 +19,10 @@ A container is a runnable instance of a image.
 | pull | Retrieve images form a configured registry | docker pull nginx|
 | ps | Verify details| docker ps -a|
 
+### Cheatsheet
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/e8c77330-7dcf-4493-b714-5a0b48e9cc8a)
+
+
 ## Dockerfile Instructions
 Text file containing instructions to create an image in any editor feom console or terminal
 | Instruction | Example |
