@@ -1,6 +1,12 @@
 # Docker Notes
 A container is a runnable instance of a image.
 
+## Workflow
+1. docker build: Client creates Images with Docker file;
+2. docker push: Client stores Images in Registry;
+3. docker pull (if needed): Docekr host (Daemon/dockerd) retrives Images from Registry;
+4. docker run: Docker host creates containers from retreived Images.
+
 ## Network, Storage(volumes and binds) & Plugins (external storage platforms)
 
 ## Commands
@@ -22,11 +28,12 @@ Text file containing instructions to create an image in any editor feom console 
 | CMD | Define default command for container execution; <br>Usually 1, if multiple the last one is effective|
 
 ## Docker Image
-> hostname/repository:tag = Docker hub registry/Group of images:Version<br>
-> ex: docker.io/ubuntu:18.04
-
-Read only template with instructions for creating Docker container using Dockerfile instructions;<br>
-New creates read-only image layer for each instruction;<br>
-One writeble layer per container;<br>
-Layers can be shared between images, saving disk space and bandwidth.
+```
+hostname/repository:tag == Docker hub registry/Group of images:Version
+ex: docker.io/ubuntu:18.04
+```
+1. Read only template with instructions for creating Docker container using Dockerfile instructions;<br>
+2. New creates read-only image layer for each instruction;<br>
+3. One writeble layer per container;<br>
+4. Layers can be shared between images, saving disk space and bandwidth.
 
