@@ -1,7 +1,9 @@
 # Docker Notes
-A container is a runnable instance of a image.
+A container is a runnable instance of an image.
 
-## Workflow
+## Architecture & Workflow
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/d714a3d0-a7cf-49a6-aee3-40cf36693706)
+
 1. docker build: Client creates Images with Docker file;
 2. docker push: Client stores Images in Registry;
 3. docker pull (if needed): Docekr host (Daemon/dockerd) retrives Images from Registry;
@@ -28,8 +30,9 @@ Text file containing instructions to create an image in any editor feom console 
 | Instruction | Example |
 | ----------- | ----------- |
 | FROM | Define base image|
-| RUN | Execution |
+| RUN | Execute commands |
 | CMD | Define default command for container execution; <br>Usually 1, if multiple the last one is effective|
+| EXPOSE | Expose a particular port with a specified protocol inside a Docker Container. |
 
 ## Docker Image
 ```
