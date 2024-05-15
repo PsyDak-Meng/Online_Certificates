@@ -7,7 +7,7 @@ See definitions of container techs [here.](https://www.coursera.org/learn/ibm-co
 
 1. **docker build**: Client creates Images with Docker file,<br>
                     ex: docker build . -t myimage:v1;
-2. **docker pull (if needed)**: Docekr host (Daemon/dockerd) retrives Images from Registry;
+2. **docker pull (if needed)**: Docker host (Daemon/dockerd) retrieves Images from Registry;
 3. **docker push**: Client stores Images in Registry;<br>
   3-1 **Set environmental variable**: export MY_NAMESPACE=sn-labs-$USERNAME;<br>
   3-2 **docker tag**: tag to be pushed,<br>
