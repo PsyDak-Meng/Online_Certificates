@@ -37,8 +37,8 @@ See definitions of container techs [here.](https://www.coursera.org/learn/ibm-co
 
 
 ## Dockerfile Instructions
-**Dockerfile**: Text file containing instructions to create an image in any editor feom console or terminal
-| Instruction | Example |
+**Dockerfile**: Text file containing instructions to create an image in any editor from console or terminal
+| Instruction | Usage |
 | ----------- | ----------- |
 | FROM | Define base image|
 | COPY | Copy files to the image |
