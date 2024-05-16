@@ -1,4 +1,4 @@
-# Kubernetes Basics -1: Concepts & Architecture
+# Kubernetes Basics-1: Concepts & Architecture
 Container orchestrationfor automated, portable and scalable container management with some managent capabilities.<br>
 Uses YAML or JSON files for configuration to
 - Automate rollout and rollbacks
