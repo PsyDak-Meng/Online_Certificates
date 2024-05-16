@@ -1,4 +1,4 @@
-# Kubernetes Basics 2: Objects
+# Kubernetes Basics-2: Objects
 
 ## Kubernete Objects
 1. = Object spec (user desired state) + Status (Kubernetes current state);
