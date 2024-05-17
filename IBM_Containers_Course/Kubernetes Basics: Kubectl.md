@@ -24,6 +24,9 @@ Stores updates of configuration state automatically, and is shared across develo
 
 ## Common Commands
 find all commands [here](Kubernetes.io)<br>
+## Cheatsheet
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/c56be2c7-8f8d-442b-a3b0-8fe29db64c23)
+
 ### Workflow
 1. **config**: config to get appropriate cluster<br>
   1.1 get cluster information:<br>
