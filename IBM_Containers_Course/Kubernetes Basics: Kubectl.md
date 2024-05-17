@@ -71,4 +71,5 @@ find all commands [here](Kubernetes.io)<br>
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f513bac1-e33f-4704-ae80-ef4da8fe17d5)
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f0582f06-3684-4dea-8636-301176fbbe3d)
 
-### [Lab](https://labs.cognitiveclass.ai/v2/tools/cloud-ide-kubernetes?ulid=ulid-ef5443811ce77e02c7bb8c432d1738b1173c7d76)
+## Lab
+Find the hand-on lab [here.](https://labs.cognitiveclass.ai/v2/tools/cloud-ide-kubernetes?ulid=ulid-ef5443811ce77e02c7bb8c432d1738b1173c7d76)
