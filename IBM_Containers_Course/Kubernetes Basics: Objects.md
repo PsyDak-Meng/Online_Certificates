@@ -1,6 +1,7 @@
 # Kubernetes Basics: Objects
 
 ## Kubernete Objects
+Kubernetes objects include Namespaces, Pods, ReplicaSets, Deployments, and Services. <br><br>
 1. = Object spec (user desired state) + Status (Kubernetes current state);
 2. **Labels**: Key/value pairs for identificaiton, not unique to be used in grouping with label selectors;
 3. **Namespaces**: Isolating mechanism for groups within a single cluster, unique object names within the namespace;
