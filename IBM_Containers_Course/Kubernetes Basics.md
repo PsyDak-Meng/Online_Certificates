@@ -9,7 +9,10 @@ Uses YAML or JSON files for configuration to
 - Batch execution
 - Self-healing (expose only healthy, kill/reschedule/restart failing ones)
 - Load balancing
-and many usages in its ecosystem.
+and many usages in its ecosystem.<br>
+
+**Dos & Don'ts**: [here](https://github.com/PsyDak-Meng/Online_Certificates/blob/main/IBM_Containers_Course/Kubernetes%20Antipatterns.pdf)
+
 
  ## Concepts
  ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/8003157b-e3f7-4cae-a40c-ef80bdf22c41)
