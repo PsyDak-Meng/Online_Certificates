@@ -7,7 +7,6 @@
 4. **Pod**: Process / running instance with 1 or more containers, scale horizontally as ReplicaSets by replicating pod services using YAML files;
 
    ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/6942537a-bd45-4fd1-9932-3d70471f5024)
-   ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/6942537a-bd45-4fd1-9932-3d70471f5024)
      ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/5a0a9543-c407-4d52-a5d3-5fb440b0941a)
 5. **Deployment**: Provides updates for pods and replicasets and runs multiple replicas of an application.<br>
 For stateless applications and the update will trigger a rollout (change only on the new version).
