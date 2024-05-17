@@ -7,8 +7,8 @@ kubectl [command][type][name][flags]
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/0df790fd-ea91-4643-8f3f-70a34a563841)
 
 - Imperatiev cmd
-- Imperative configuration
-- Declaratiev configuration
+- Imperative object configuration
+- Declarative object configuration
   
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/7feef941-18a5-4965-8fd5-df92fed3a0a2)
 If A ran imperative cmd, B has to ask A for his cmd or else cannot run the same application. 
