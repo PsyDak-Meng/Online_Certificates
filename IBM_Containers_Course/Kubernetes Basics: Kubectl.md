@@ -26,6 +26,7 @@ Stores updates of configuration state automatically, and is shared across develo
 find all commands [here](Kubernetes.io)<br>
 ### Cheatsheet
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/c56be2c7-8f8d-442b-a3b0-8fe29db64c23)
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/8c39533c-7e51-455a-9815-f96f3ae63a2d)
 
 ### Workflow
 1. **config**: config to get appropriate cluster<br>
@@ -35,7 +36,7 @@ find all commands [here](Kubernetes.io)<br>
    ex: kubectl config get-contexts<br><br>
   1.3 list pods: <br>
   ex: kubectl get pods<br><br>
-3. **create pod**<br>
+2. **create pod**<br>
    2.1 set namespace as environmental variable: <br>
    export MY_NAMESPACE=sn-labs-$USERNAME<br><br><br>
    
@@ -63,16 +64,16 @@ find all commands [here](Kubernetes.io)<br>
    2.4.3 access ClusterIP from proxy to be within cluster:<br>
    kubectl proxy<br>
    ping for response: curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy<br><br>
-   
-   2.5 delete pod/deployment: <br>
+
+3.  **delete pod/deployment**: <br>
    ex: kubectl delete pod hello-world<br>
    kubectl delete deployment/hello-world service/hello-world<br>
    
    
-![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/8c39533c-7e51-455a-9815-f96f3ae63a2d)
+
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/37c9b474-3efb-4c3f-a2e8-873ec8ecc342)
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f513bac1-e33f-4704-ae80-ef4da8fe17d5)
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f0582f06-3684-4dea-8636-301176fbbe3d)
 
 ## Lab
-Find the hand-on lab [here.](https://labs.cognitiveclass.ai/v2/tools/cloud-ide-kubernetes?ulid=ulid-ef5443811ce77e02c7bb8c432d1738b1173c7d76)
+Find the hands-on lab [here.](https://labs.cognitiveclass.ai/v2/tools/cloud-ide-kubernetes?ulid=ulid-ef5443811ce77e02c7bb8c432d1738b1173c7d76)
