@@ -26,6 +26,7 @@ Stores updates of configuration state automatically, and is shared across develo
 find all commands [here](Kubernetes.io)<br>
 ### Cheatsheet
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/c56be2c7-8f8d-442b-a3b0-8fe29db64c23)
+kubectl set image deployment: update deployment image
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/8c39533c-7e51-455a-9815-f96f3ae63a2d)
 
 ### Workflow
