@@ -1,5 +1,10 @@
 # Kubernetes Application Management
 
+## kubectl Cheatsheet
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/6a0d5ae6-37ec-4180-83cb-66d2f7dd569e)
+
+
+
 ## Replica Set
 - **Deployments --> ReplicaSet --> pod labels --> pods**
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/df422b9a-94cb-42d0-b8b4-43c576be94a8)
