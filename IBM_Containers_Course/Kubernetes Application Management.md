@@ -68,3 +68,7 @@ Verify Secret stored in Kubernetes Cluster: ```kubectl get secrets --namespace=d
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/61dbb8d2-74bf-4bae-8cd7-8cbbe34e143e)
 
 
+## Hands-on Lab
+See the lab [here.](https://labs.cognitiveclass.ai/v2/tools/cloud-ide-kubernetes?ulid=ulid-cb959be16e9c5b58cc02a6c15e180c60c70529f2)
+
+
