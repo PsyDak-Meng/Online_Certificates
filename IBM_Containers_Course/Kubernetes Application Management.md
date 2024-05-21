@@ -33,5 +33,38 @@
 - One-at-a time (staggered so not interrupted)
 
 ## ConfigMaps and Secrets
+### ConfigMaps
 Avoid hard-coding configuration variables. ConfigMaps is an API object that stores non-confidential data in key-value pair without encryption.
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/fc8d443e-3ac8-453a-ae88-881d83dc3d4b)
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/3a264bfc-5885-4625-b81f-ed8e2e2a6339)
+
+- String literal
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/d022ddc7-600f-4357-a6c6-c7ac6f471eea)
+ 
+- ConfigMap properties file
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f8b61329-bd40-4ab3-89b7-71b36637c8b7)
+
+- YAML
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/523b8413-0561-4350-98fc-7a2ed7308836)
+
+### Secrets
+- String literal
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f5e0b53c-590c-4bf5-9023-e847efdb66d1)
+print out secret: ```kubectl get secret api-cards -o YAML```
+
+- environmental variable
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/f5b59f88-8647-4141-9051-271c979b7237)
+
+- volume mounts
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/c5fc45c7-58ad-4d61-9e52-5c60a6904c3a)
+
+
+## Service Binding
+Consumes external service using volumeMounts and volumes by binding the application to a deployment.<br>
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/9e32ce16-a31e-44d2-a30d-a6990c6b000c)
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/02a7879d-eb6a-404d-9d56-7f8f9d0b91a5)
+Verify Secret stored in Kubernetes Cluster: ```kubectl get secrets --namespace=default```
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/6a0fd12c-b056-4beb-b6a0-7f76c5872179)
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/61dbb8d2-74bf-4bae-8cd7-8cbbe34e143e)
+
 
