@@ -55,4 +55,12 @@ CRD + contollers = new decalrative Kubernetes API
 
 
 
-## Istio
+## Istio (service mesh)
+Security, Traffic econtrol, Policies, Observability without adding to code.
+### With Kubernetes
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/23b2b7c2-aaeb-47f6-898b-495253441322)
+
+### With Microservices
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/d22163fe-ba25-41ca-b46e-bac21eaffa48)
+
+
