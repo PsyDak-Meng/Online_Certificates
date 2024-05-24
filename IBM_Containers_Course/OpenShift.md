@@ -1,6 +1,10 @@
 # OpenShift
 Container orchestration enterprise platform running on Kubernetes clusters, with object data stored in the etcd key-value store.
 
+**Cheat Sheet: OpenShift CLI**
+![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/353f759c-4f62-4972-a0e2-f63d267cdd04)
+
+
 ## Structure
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/48873890-22db-4efc-9071-daff9e63f383)
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/e58d830f-3818-4710-a245-bde9da837fd9)
