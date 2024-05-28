@@ -26,7 +26,11 @@ Stores updates of configuration state automatically, and is shared across develo
 find all commands [here](Kubernetes.io)<br>
 ### Cheatsheet
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/c56be2c7-8f8d-442b-a3b0-8fe29db64c23)
-kubectl set image deployment: update deployment image
+kubectl set image deployment: update deployment image <br>
+kubectl rollout history deployment/<app_name>: see deployment history <br>
+kubectl rollout history deployments <app_name> --revision=<revision_num>: see details of deployment recisions <br>
+kubectl rollout undo deployment/<app_name> --to-revision=<revision_num>: undo revision and set to a specific revision
+
 ![image](https://github.com/PsyDak-Meng/Online_Certificates/assets/105434864/8c39533c-7e51-455a-9815-f96f3ae63a2d)
 
 ### Workflow
